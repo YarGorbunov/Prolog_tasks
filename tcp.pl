@@ -17,7 +17,7 @@ send_and_receive(Host, Port, Message, Response) :-
     close(OutStream).
 
 % Пример использования:
-% send_and_receive('localhost', 12345, "Hello, server!", Response).
+% send_and_receive('www.example.com', http, "Hello, server!", Response).
 
 
 % SWI PROLOG DOCS
